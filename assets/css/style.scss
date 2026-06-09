@@ -2,6 +2,8 @@
 ---
 @import "{{ site.theme }}";
 
-/* 기본 테마가 자동으로 생성하는 최상단 레포지토리 링크 숨기기 */
-body > a:first-of-type, #main_content > a:first-of-type { display: none !important; }
-h1:first-of-type { margin-top: 0; }
+/* 기본 테마의 거대한 상단 배너 영역 전체를 숨기기 */
+.page-header { display: none !important; }
+
+/* 본문 맨 위 여백을 깔끔하게 조정 */
+.main-content { padding-top: 2rem !important; }
