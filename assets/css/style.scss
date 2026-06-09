@@ -2,13 +2,19 @@
 ---
 @import "jekyll-theme-primer";
 
-/* 1. 메인 본문(.main-content)을 제외한 모든 최상위 요소(헤더, 유령 링크 등)를 무조건 숨기기 */
-body > *:not(.main-content):not(script):not(style) {
-  display: none !important;
-}
-
-/* 2. 본문 맨 위 여백을 보기 좋게 정돈 */
+/* 1. 본문은 무조건 확실하게 보여주기 (흰 화면 복구) */
 .main-content {
+  display: block !important;
   padding-top: 3rem !important;
   margin-top: 0 !important;
+}
+
+/* 2. 상단 배너와 정체불명의 헤더 구역만 저격해서 숨기기 */
+.page-header, header, .site-header { 
+  display: none !important; 
+}
+
+/* 3. 본문 구역 바깥(최상단)에 홀로 생성되는 유령 링크들만 차단 */
+body > a {
+  display: none !important;
 }
