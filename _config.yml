@@ -1,5 +1,6 @@
 title: "VLA-RFT"
 description: "World Model-Based RL Fine-Tuning for Robot Manipulation"
+theme: jekyll-theme-primer
 # theme: minima
 
 # GitHub Pages 설정
