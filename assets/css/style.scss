@@ -2,19 +2,12 @@
 ---
 @import "jekyll-theme-primer";
 
-/* 1. 본문은 무조건 확실하게 보여주기 (흰 화면 복구) */
-.main-content {
-  display: block !important;
-  padding-top: 3rem !important;
-  margin-top: 0 !important;
-}
-
-/* 2. 상단 배너와 정체불명의 헤더 구역만 저격해서 숨기기 */
-.page-header, header, .site-header { 
-  display: none !important; 
-}
-
-/* 3. 본문 구역 바깥(최상단)에 홀로 생성되는 유령 링크들만 차단 */
-body > a {
+/* 1. 테마가 본문 상자 바로 위에 자동으로 주입하는 첫 번째 타이틀 링크만 정확히 저격해서 숨기기 */
+.markdown-body > h1:first-of-type {
   display: none !important;
+}
+
+/* 2. 링크가 사라진 맨 위 여백을 보기 좋게 정돈 */
+.markdown-body {
+  padding-top: 3rem !important;
 }
