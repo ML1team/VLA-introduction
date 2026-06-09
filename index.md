@@ -4,6 +4,12 @@ title: "VLA-RFT: World Model-Based RL Fine-Tuning for Robot Manipulation"
 description: "Reinforcement Fine-Tuning of Vision-Language-Action Models via World Model Rewards"
 ---
 
+<style>
+  /* 기본 테마가 자동으로 생성하는 최상단 레포지토리 링크 숨기기 */
+  body > a:first-of-type, #main_content > a:first-of-type { display: none !important; }
+  h1:first-of-type { margin-top: 0; }
+</style>
+
 <div align="center" markdown="1">
 
 # VLA-RFT: World Model-Based RL Fine-Tuning for Robot Manipulation
