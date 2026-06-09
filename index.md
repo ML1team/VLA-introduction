@@ -130,7 +130,7 @@ VLA-Adapter RFT C 모델을 대상으로, 학습에 사용되지 않은 다양�
 
 VLA-Adapter RFT C 모델의 Pick-and-Place 작업 시연 영상입니다.
 
-<div align="center">
+<div align="center" markdown="1">
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/OmYyQRj4tNA" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
