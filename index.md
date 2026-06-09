@@ -4,7 +4,7 @@ title: "VLA-RFT: World Model-Based RL Fine-Tuning for Robot Manipulation"
 description: "Reinforcement Fine-Tuning of Vision-Language-Action Models via World Model Rewards"
 ---
 
-<div align="center">
+<div align="center", markdown="1">
 
 # VLA-RFT: World Model-Based RL Fine-Tuning for Robot Manipulation
 
