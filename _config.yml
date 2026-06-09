@@ -1,20 +1,17 @@
 title: "VLA-RFT"
 description: "World Model-Based RL Fine-Tuning for Robot Manipulation"
 theme: jekyll-theme-primer
-# theme: minima
 
-# GitHub Pages 설정
-url: ""  # 예: https://pleiony.github.io
-baseurl: ""  # 예: /vla-rft (레포 이름이 서브경로인 경우)
+# GitHub Pages 설정 (이 구역을 아래처럼 수정해 주세요)
+url: "https://ml1team.github.io"
+baseurl: "/VLA-introduction"
 
 # 마크다운 설정
 markdown: kramdown
 kramdown:
   input: GFM
-
 # 플러그인
 plugins:
   - jekyll-seo-tag
-
 # 네비게이션 제거 (단일 페이지)
 header_pages: []
