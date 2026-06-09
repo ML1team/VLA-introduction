@@ -1,0 +1,7 @@
+---
+---
+@import "{{ site.theme }}";
+
+/* 기본 테마가 자동으로 생성하는 최상단 레포지토리 링크 숨기기 */
+body > a:first-of-type, #main_content > a:first-of-type { display: none !important; }
+h1:first-of-type { margin-top: 0; }
